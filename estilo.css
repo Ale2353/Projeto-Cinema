@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkred;
+}
+
+header {
+    text-align: center;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding: 40px;
+}
+
+.album {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 2vw;
+}
+
+.filme img {
+    width: 245px;
+    
+}
+
+.filme {
+    border: solid white;
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
